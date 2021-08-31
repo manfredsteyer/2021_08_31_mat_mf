@@ -18,15 +18,13 @@ import { AppComponent } from '../app.component';
 @NgModule({
   imports: [
     CommonModule,
+    FormsModule,
     RouterModule.forChild(FORGE_ROUTES),
     MatButtonModule,
     MatCheckboxModule,
-    BrowserAnimationsModule,
     MatIconModule,
     MatProgressBarModule,
     MatSelectModule,
-    BrowserModule,
-    FormsModule,
     MatFormFieldModule,
   ],
   declarations: [
